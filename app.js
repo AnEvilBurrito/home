@@ -1,4 +1,4 @@
-import GameCanva from './src/engine/GameCanva.js'
+import GameCanva from './ts-built/engine/GameCanva.js'
 
 const gameBoard = new GameCanva(512, 512);
 
