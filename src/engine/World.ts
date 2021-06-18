@@ -1,4 +1,4 @@
-class VirtualPoint {
+export default class VirtualPoint {
   x: number;
   y: number;
 
@@ -7,5 +7,3 @@ class VirtualPoint {
     this.y = y;
   }
 }
-
-const newVPoint = new VirtualPoint(13, 56);
