@@ -1,10 +1,7 @@
-export default class GameCanva {
-  width: number;
-  height: number;
-  type: string;
-  app: any;
+// GameCanva.js renders the 2D display to an user
 
-  constructor(width: number, height: number) {
+export default class GameCanva {
+  constructor(width, height) {
     this.width = width;
     this.height = height; 
     this.type = "WebGL";

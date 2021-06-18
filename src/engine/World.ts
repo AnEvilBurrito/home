@@ -9,4 +9,3 @@ class VirtualPoint {
 }
 
 const newVPoint = new VirtualPoint(13, 56);
-logPoint(newVPoint); // logs "13, 56"

@@ -4,5 +4,6 @@
         "target": "ES6",
         "outDir": "ts-built",
         "rootDir": "src"
-    }
+    },
+    "types": ["pixi.js"]
 }
