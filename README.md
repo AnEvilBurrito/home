@@ -10,3 +10,5 @@ build individual ts file via
 running 
 `tsc -w`
 will compile any .ts file in src directory into .js and store them in ts-built directory
+
+update
