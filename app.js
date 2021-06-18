@@ -1,20 +1,4 @@
-class GameCanva {
-  constructor(width, height) {
-    this.width = width;
-    this.height = height; 
-    this.type = "WebGL";
-    if(!PIXI.utils.isWebGLSupported()){
-      this.type = "canvas"
-    }
-    this.app = new PIXI.Application({width: this.width, height: this.height});
-
-  }
-
-  render() {
-    document.body.appendChild(this.app.view);
-  }
-
-}
+import GameCanva from './src/engine/GameCanva.js'
 
 const gameBoard = new GameCanva(512, 512);
 
