@@ -1,4 +1,4 @@
-import GameCanva from './js-src/GameCanva.js'
+import GameCanva from './ts-built/engine/GameCanva.js'
 import { VirtualPoint } from './ts-built/engine/World.js';
 
 const gameBoard = new GameCanva(512, 512);
